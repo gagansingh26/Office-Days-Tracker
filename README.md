@@ -26,4 +26,4 @@ The **Office Days Tracker** is a simple and interactive web application to manag
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/office-days-tracker.git
+   git clone https://github.com/gagansingh26/Office-Days-Tracker.git
