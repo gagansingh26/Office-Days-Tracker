@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Office Days Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Office Days Tracker</h1>
+    <div class="controls">
+      <button id="prevMonth">◀ Previous</button>
+      <h2 id="monthYear"></h2>
+      <button id="nextMonth">Next ▶</button>
+    </div>
+    <div id="calendar"></div>
+    <div id="summary">
+      <p><strong>Total Working Days (Mon-Fri):</strong> <span id="totalWorkingDays">0</span></p>
+      <p><strong>Total Office Days Selected:</strong> <span id="totalSelectedDays">0</span></p>
+      <p><strong>Percentage of Office Days:</strong> <span id="percentage">0%</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
